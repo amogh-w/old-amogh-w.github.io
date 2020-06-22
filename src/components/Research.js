@@ -10,13 +10,13 @@ import {
   Button,
 } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile } from "@fortawesome/free-regular-svg-icons";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
 
 const Research = () => {
   return (
     <div>
       <Typography variant="h4" gutterBottom>
-        Published Articles
+        Articles
       </Typography>
       <Card style={{ marginBottom: "20px" }}>
         <CardHeader title="Measuring Performance of Generative Adversarial Networks on Devanagari Script"></CardHeader>
@@ -30,10 +30,11 @@ const Research = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                Authors: Amogh G. Warkhandkar, Baasit Sharief, Omkar B. Bhambure
+                ★ Authors: Amogh G. Warkhandkar, Baasit Sharief, Omkar B.
+                Bhambure
               </ListItem>
               <ListItem>
-                Abstract: The working of neural networks following the
+                ★ Abstract: The working of neural networks following the
                 adversarial philosophy to create a generative model is a
                 fascinating field. Multiple papers have already explored the
                 architectural aspect and proposed systems with potentially good
@@ -48,10 +49,10 @@ const Research = () => {
                 output of the GAN model. The following paper is an explanation
                 of what this implementation has achieved.
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button variant="outlined" href="#">
                   <FontAwesomeIcon
-                    icon={faFile}
+                    icon={faEye}
                     style={{ marginRight: "10px" }}
                   />
                   View

@@ -64,7 +64,7 @@ const About = () => {
               href="https://github.com/amogh-w/dotfiles/blob/master/vim/.vimrc"
               style={{ marginLeft: "10px" }}
             >
-              .vimrc
+              vimrc
             </Button>
           </ListItem>
         </List>

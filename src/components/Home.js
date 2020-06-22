@@ -14,6 +14,7 @@ const Home = () => {
       <Typography variant="h4" gutterBottom>
         Hello! Hallo! こんにちは! 안녕하세요!
       </Typography>
+      <Divider style={{ margin: "20px 0px" }} />
       <Typography variant="body1" gutterBottom>
         I am a 20 year old engineering student and developer who wants to change
         the world for the better with the help of technology.
@@ -33,7 +34,11 @@ const Home = () => {
       <List>
         <ListItem>
           <Button variant="outlined" href="https://github.com/amogh-w">
-            <FontAwesomeIcon icon={faGithub} style={{ marginRight: "10px" }} />
+            <FontAwesomeIcon
+              icon={faGithub}
+              style={{ marginRight: "10px" }}
+              size="2x"
+            />
             github
           </Button>
         </ListItem>
@@ -45,6 +50,7 @@ const Home = () => {
             <FontAwesomeIcon
               icon={faLinkedin}
               style={{ marginRight: "10px" }}
+              size="2x"
             />
             linkedin
           </Button>
@@ -57,19 +63,28 @@ const Home = () => {
             <FontAwesomeIcon
               icon={faResearchgate}
               style={{ marginRight: "10px" }}
+              size="2x"
             />
             researchgate
           </Button>
         </ListItem>
         <ListItem>
           <Button variant="outlined" href="#">
-            <FontAwesomeIcon icon={faFile} style={{ marginRight: "10px" }} />
+            <FontAwesomeIcon
+              icon={faFile}
+              style={{ marginRight: "10px" }}
+              size="2x"
+            />
             resume
           </Button>
         </ListItem>
         <ListItem>
           <Button variant="outlined" href="#">
-            <FontAwesomeIcon icon={faFile} style={{ marginRight: "10px" }} />
+            <FontAwesomeIcon
+              icon={faFile}
+              style={{ marginRight: "10px" }}
+              size="2x"
+            />
             single page resume
           </Button>
         </ListItem>

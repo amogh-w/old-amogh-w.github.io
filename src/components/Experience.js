@@ -22,8 +22,8 @@ const Experience = () => {
             <Typography variant="caption">August 2017 - Present</Typography>
             <Divider style={{ marginTop: "10px" }} />
             <List>
-              <ListItem>B.E. in Information Technology</ListItem>
-              <ListItem>Overall GPA: 8.19</ListItem>
+              <ListItem>★ Course: B.E. in Information Technology</ListItem>
+              <ListItem>★ Overall GPA: 8.19 (SEM I - V)</ListItem>
             </List>
           </Typography>
         </CardContent>

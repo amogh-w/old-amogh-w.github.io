@@ -35,7 +35,7 @@ const Projects = () => {
               <ListItem>
                 ★ Technologies: Tensorflow.js, React.js, Node.js
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://github.com/amogh-w/React-Tensorflow-Object-Detection"
@@ -69,7 +69,7 @@ const Projects = () => {
                 ★ Technologies: React.js, Tesseract.js, Node.js, Firebase,
                 MongoDB, GraphQL
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://github.com/amogh-w/Hackathon-OCR-Magic"
@@ -102,7 +102,7 @@ const Projects = () => {
                 ★ Technologies: Raspberry Pi, Faceapi.js, React.js, Socket.io,
                 Node.js, Firebase, MongoDB, GraphQL
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://github.com/amogh-w/IOT-Digital-Wellbeing"
@@ -134,7 +134,7 @@ const Projects = () => {
               <ListItem>
                 ★ Technologies: Python, Turtle, Tkinter, SQLite
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://github.com/amogh-w/PongGamePython"
@@ -164,7 +164,7 @@ const Projects = () => {
                 support.
               </ListItem>
               <ListItem>★ Technologies: Java, Swing, MySQL</ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://github.com/amogh-w/PlutoRailwayLogin"
@@ -191,7 +191,7 @@ const Projects = () => {
                 ★ Android application to provide new customization opportunities
                 for custom firmware users.
               </ListItem>
-              <ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
                   variant="outlined"
                   href="https://forums.oneplus.com/threads/modified-hexo-theme-for-cyanogenmod.310444/"
