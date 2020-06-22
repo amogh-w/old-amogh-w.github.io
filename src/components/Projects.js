@@ -28,12 +28,12 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                React.js web application to experiment with the COCO Single Shot
-                MultiBox Detection pre-trained model to detect objects through
-                the User’s Webcam or another video source.
+                ★ React.js web application to experiment with the COCO Single
+                Shot MultiBox Detection pre-trained model to detect objects
+                through the User’s Webcam or another video source.
               </ListItem>
               <ListItem>
-                Technologies: Tensorflow.js, React.js, Node.js
+                ★ Technologies: Tensorflow.js, React.js, Node.js
               </ListItem>
               <ListItem>
                 <Button
@@ -61,12 +61,12 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                React.js web application for utilizing optical character
+                ★ React.js web application for utilizing optical character
                 recognition techniques to extract information from documents
                 with database integration.
               </ListItem>
               <ListItem>
-                Technologies: React.js, Tesseract.js, Node.js, Firebase,
+                ★ Technologies: React.js, Tesseract.js, Node.js, Firebase,
                 MongoDB, GraphQL
               </ListItem>
               <ListItem>
@@ -95,11 +95,11 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                Cross-platform application for keeping track of moods of the
+                ★ Cross-platform application for keeping track of moods of the
                 user by interpreting facial features to assist mental health.
               </ListItem>
               <ListItem>
-                Technologies: Raspberry Pi, Faceapi.js, React.js, Socket.io,
+                ★ Technologies: Raspberry Pi, Faceapi.js, React.js, Socket.io,
                 Node.js, Firebase, MongoDB, GraphQL
               </ListItem>
               <ListItem>
@@ -128,10 +128,12 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                Python implemented retro game from 1972 with database support
+                ★ Python implemented retro game from 1972 with database support
                 including player and match customization.
               </ListItem>
-              <ListItem>Technologies: Python, Turtle, Tkinter, SQLite</ListItem>
+              <ListItem>
+                ★ Technologies: Python, Turtle, Tkinter, SQLite
+              </ListItem>
               <ListItem>
                 <Button
                   variant="outlined"
@@ -158,10 +160,10 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                Java implemented registration and login page with database
+                ★ Java implemented registration and login page with database
                 support.
               </ListItem>
-              <ListItem>Technologies: Java, Swing, MySQL</ListItem>
+              <ListItem>★ Technologies: Java, Swing, MySQL</ListItem>
               <ListItem>
                 <Button
                   variant="outlined"
@@ -186,7 +188,7 @@ const Projects = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>
-                Android application to provide new customization opportunities
+                ★ Android application to provide new customization opportunities
                 for custom firmware users.
               </ListItem>
               <ListItem>
