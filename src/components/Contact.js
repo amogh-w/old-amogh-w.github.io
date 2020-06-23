@@ -59,7 +59,7 @@ const Contact = () => {
       <br />
       <Button
         variant="contained"
-        color="secondary"
+        color="primary"
         style={{ marginTop: "16px", marginBottom: "8px" }}
         onClick={() => handleSubmit()}
       >
