@@ -50,7 +50,10 @@ const Research = () => {
                 of what this implementation has achieved.
               </ListItem>
               <ListItem style={{ justifyContent: "flex-end" }}>
-                <Button variant="outlined" href="#">
+                <Button
+                  variant="outlined"
+                  href="https://www.researchgate.net/publication/342281657_Measuring_Performance_of_Generative_Adversarial_Networks_on_Devanagari_Script"
+                >
                   <FontAwesomeIcon
                     icon={faEye}
                     style={{ marginRight: "10px" }}
