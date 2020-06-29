@@ -7,7 +7,12 @@ import {
   CardHeader,
   CardContent,
   Divider,
+  Button,
+  ButtonGroup,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Experience = () => {
   return (
@@ -61,6 +66,29 @@ const Experience = () => {
           </Typography>
         </CardContent>
       </Card>
+      <Divider style={{ margin: "20px 0px" }} />
+      <div style={{ textAlign: "center" }}>
+        <ButtonGroup
+          variant="contained"
+          color="primary"
+          aria-label="contained primary button group"
+        >
+          <Button to="/about" component={Link}>
+            <FontAwesomeIcon
+              icon={faArrowLeft}
+              style={{ margin: "0px 10px" }}
+            />
+            about
+          </Button>
+          <Button to="/research" component={Link}>
+            research
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              style={{ margin: "0px 10px" }}
+            />
+          </Button>
+        </ButtonGroup>
+      </div>
     </div>
   );
 };

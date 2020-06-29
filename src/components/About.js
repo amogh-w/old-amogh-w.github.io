@@ -1,5 +1,14 @@
 import React from "react";
-import { Typography, Divider, List, ListItem, Button } from "@material-ui/core";
+import {
+  Typography,
+  Divider,
+  List,
+  ListItem,
+  Button,
+  ButtonGroup,
+} from "@material-ui/core";
+import { Link } from "react-router-dom";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWindows, faLinux } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faTerminal } from "@fortawesome/free-solid-svg-icons";
@@ -79,6 +88,29 @@ const About = () => {
           </ListItem>
         </List>
       </Typography>
+      <Divider style={{ margin: "20px 0px" }} />
+      <div style={{ textAlign: "center" }}>
+        <ButtonGroup
+          variant="contained"
+          color="primary"
+          aria-label="contained primary button group"
+        >
+          <Button to="/" component={Link}>
+            <FontAwesomeIcon
+              icon={faArrowLeft}
+              style={{ margin: "0px 10px" }}
+            />
+            home
+          </Button>
+          <Button to="/experience" component={Link}>
+            experience
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              style={{ margin: "0px 10px" }}
+            />
+          </Button>
+        </ButtonGroup>
+      </div>
     </div>
   );
 };

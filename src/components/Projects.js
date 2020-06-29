@@ -8,9 +8,12 @@ import {
   CardContent,
   Divider,
   Button,
+  ButtonGroup,
 } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faChrome } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -207,6 +210,29 @@ const Projects = () => {
           </Typography>
         </CardContent>
       </Card>
+      <Divider style={{ margin: "20px 0px" }} />
+      <div style={{ textAlign: "center" }}>
+        <ButtonGroup
+          variant="contained"
+          color="primary"
+          aria-label="contained primary button group"
+        >
+          <Button to="/research" component={Link}>
+            <FontAwesomeIcon
+              icon={faArrowLeft}
+              style={{ margin: "0px 10px" }}
+            />
+            research
+          </Button>
+          <Button to="/contact" component={Link}>
+            contact
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              style={{ margin: "0px 10px" }}
+            />
+          </Button>
+        </ButtonGroup>
+      </div>
     </div>
   );
 };

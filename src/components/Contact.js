@@ -1,6 +1,16 @@
 import React, { useState } from "react";
-import { Typography, TextField, Button } from "@material-ui/core";
+import {
+  Typography,
+  TextField,
+  Button,
+  ButtonGroup,
+  Divider,
+} from "@material-ui/core";
 //import emailjs from "emailjs-com";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+import { faArrowLeft, faHome } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [mail, setMail] = useState({
@@ -65,6 +75,26 @@ const Contact = () => {
       >
         Submit
       </Button>
+      <Divider style={{ margin: "20px 0px" }} />
+      <div style={{ textAlign: "center" }}>
+        <ButtonGroup
+          variant="contained"
+          color="primary"
+          aria-label="contained primary button group"
+        >
+          <Button to="/projects" component={Link}>
+            <FontAwesomeIcon
+              icon={faArrowLeft}
+              style={{ margin: "0px 10px" }}
+            />
+            projects
+          </Button>
+          <Button to="/" component={Link}>
+            home
+            <FontAwesomeIcon icon={faHome} style={{ margin: "0px 10px" }} />
+          </Button>
+        </ButtonGroup>
+      </div>
     </div>
   );
 };
