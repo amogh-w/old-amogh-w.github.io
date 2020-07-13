@@ -39,6 +39,45 @@ const Home = () => {
         “Why waste time say lot word when few word do trick?” - Kevin Malone
         <Divider style={{ margin: "20px 0px" }} />
       </Typography>
+
+      <Typography>
+        Skills:
+        <br />
+        <br />
+        💎 <b>Data Science:</b> Python, Numpy, Pandas, Seaborn, Matplotlib,
+        Scikit-Learn
+        <br />
+        💎 <b>Deep Learning Libraries:</b> Keras, Tensorflow, PyTorch
+        <br />
+        💎 <b>DevOps:</b> Docker, CircleCI
+        <br />
+        💎 <b>Cloud Services:</b> Amazon Web Services, IBM Cloud
+        <br />
+        💎 <b>Frontend Development:</b> HTML5, CSS3, JavaScript, TypeScript,
+        React.js framework.
+        <br />
+        💎 <b>Backend Development:</b> Node.js, Express.js.
+        <br />
+        💎 <b>Databases:</b> MySQL, PostgreSQL, MongoDB
+        <br />
+        💎 <b>Protocols & APIs:</b> JSON, REST, GraphQL
+        <br />
+        💎 <b>Source Control Management:</b> git
+        <br />
+        💎 <b>Operating Systems:</b> Windows, MacOS, Linux (Debian and
+        Arch-based Distros)
+        <br />
+        💎 <b>Scripting Tools:</b> Vim, Emacs
+        <br />
+        💎 <b>Scripting Languages:</b> perl, ruby, bash
+        <br />
+        💎 <b>Typesetting Tools:</b> LaTeX
+        <br />
+        💎 <b>Soft Skills:</b> Excellent Written and Verbal Communication,
+        Critical Thinking Skills, Strong Interpersonal Skills
+        <br />
+      </Typography>
+      <Divider style={{ margin: "20px 0px" }} />
       <Typography variant="body1">Links:</Typography>
       <List>
         <ListItem>

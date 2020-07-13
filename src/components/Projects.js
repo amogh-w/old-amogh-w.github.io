@@ -11,7 +11,7 @@ import {
   ButtonGroup,
 } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faChrome } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,6 +21,47 @@ const Projects = () => {
       <Typography variant="h4" gutterBottom>
         Projects
       </Typography>
+      <Card style={{ marginBottom: "20px" }}>
+        <CardHeader title="COVIDian"></CardHeader>
+        <CardContent style={{ paddingTop: "0px" }}>
+          <Typography variant="body1">
+            <Typography variant="caption">IBM Hack Challenge 2020</Typography>
+            <Divider style={{ marginTop: "10px" }} />
+            <List>
+              <ListItem>
+                ★ A COVID Tweet Sentiment Visualizer and Analyser which featured
+                a beautiful dashboard with Live Tweet extraction, State and
+                District-wise Sentiment break down and Scikit/Tensorflow trained
+                models for analysis.
+              </ListItem>
+              <ListItem>
+                ★ The application was packaged with Docker, continuous
+                integration pipeline was enabled with CircleCI and the
+                containers were deployed on an AWS EC2 Instance with Public API
+                Endpoints for retrieving our analysed data and accessing our
+                deployed models.
+              </ListItem>
+              <ListItem>
+                ★ Technologies: Tensorflow.js, React.js, Node.jDocker, Amazon
+                Web Services, CircleCI, Tensorflow, Scikit-Learn, React.js,
+                Node.js, MongoDB, GraphQL
+              </ListItem>
+              <ListItem style={{ justifyContent: "flex-end" }}>
+                <Button
+                  variant="outlined"
+                  href="https://github.com/amogh-w/COVIDian"
+                >
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{ marginRight: "10px" }}
+                  />
+                  View
+                </Button>
+              </ListItem>
+            </List>
+          </Typography>
+        </CardContent>
+      </Card>
       <Card style={{ marginBottom: "20px" }}>
         <CardHeader title="Object Detection Tool"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -174,33 +215,6 @@ const Projects = () => {
                 >
                   <FontAwesomeIcon
                     icon={faGithub}
-                    style={{ marginRight: "10px" }}
-                  />
-                  View
-                </Button>
-              </ListItem>
-            </List>
-          </Typography>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardHeader title="Hexo Theme"></CardHeader>
-        <CardContent style={{ paddingTop: "0px" }}>
-          <Typography variant="body1">
-            <Typography variant="caption">OnePlus Community</Typography>
-            <Divider style={{ marginTop: "10px" }} />
-            <List>
-              <ListItem>
-                ★ Android application to provide new customization opportunities
-                for custom firmware users.
-              </ListItem>
-              <ListItem style={{ justifyContent: "flex-end" }}>
-                <Button
-                  variant="outlined"
-                  href="https://forums.oneplus.com/threads/modified-hexo-theme-for-cyanogenmod.310444/"
-                >
-                  <FontAwesomeIcon
-                    icon={faChrome}
                     style={{ marginRight: "10px" }}
                   />
                   View

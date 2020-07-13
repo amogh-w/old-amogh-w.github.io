@@ -23,7 +23,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-regular-svg-icons";
 
 const App = () => {
-  const [darkState, setDarkState] = useState(true);
+  const [darkState, setDarkState] = useState(
+    window.localStorage.getItem("darkMode") === "true" ? true : false
+  );
   const palletType = darkState ? "dark" : "light";
   const darkTheme = createMuiTheme({
     palette: {
@@ -34,7 +36,9 @@ const App = () => {
   });
 
   const handleThemeChange = () => {
+    const preference = darkState;
     setDarkState(!darkState);
+    window.localStorage.setItem("darkMode", !preference);
   };
 
   return (
