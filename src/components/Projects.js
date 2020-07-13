@@ -42,9 +42,8 @@ const Projects = () => {
                 deployed models.
               </ListItem>
               <ListItem>
-                ★ Technologies: Tensorflow.js, React.js, Node.jDocker, Amazon
-                Web Services, CircleCI, Tensorflow, Scikit-Learn, React.js,
-                Node.js, MongoDB, GraphQL
+                ★ Technologies: Docker, Amazon Web Services, CircleCI,
+                Tensorflow, Scikit-Learn, React.js, Node.js, MongoDB, GraphQL
               </ListItem>
               <ListItem style={{ justifyContent: "flex-end" }}>
                 <Button
