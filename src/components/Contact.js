@@ -32,7 +32,9 @@ const Contact = () => {
 
   return (
     <div>
-      <Typography variant="h4">Get in Touch</Typography>{" "}
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4">Get in Touch</Typography>{" "}
+      </div>
       <TextField
         name="name"
         label="Name"

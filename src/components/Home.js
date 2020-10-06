@@ -20,9 +20,11 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   return (
     <div>
-      <Typography variant="h4" gutterBottom>
-        Hello! Hallo! こんにちは! 안녕하세요!
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Hello! Hallo! こんにちは! 안녕하세요!
+        </Typography>
+      </div>
       <Divider style={{ margin: "20px 0px" }} />
       <Typography variant="body1" gutterBottom>
         I am a 20 year old engineering student and developer who wants to change
@@ -40,10 +42,12 @@ const Home = () => {
         <Divider style={{ margin: "20px 0px" }} />
       </Typography>
 
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Skills
+        </Typography>
+      </div>
       <Typography>
-        Skills:
-        <br />
-        <br />
         💎 <b>Data Science:</b> Python, Numpy, Pandas, Seaborn, Matplotlib,
         Scikit-Learn
         <br />
@@ -78,7 +82,11 @@ const Home = () => {
         <br />
       </Typography>
       <Divider style={{ margin: "20px 0px" }} />
-      <Typography variant="body1">Links:</Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Links
+        </Typography>
+      </div>
       <List>
         <ListItem>
           <Button variant="outlined" href="https://github.com/amogh-w">
@@ -89,11 +97,10 @@ const Home = () => {
             />
             github
           </Button>
-        </ListItem>
-        <ListItem>
           <Button
             variant="outlined"
             href="https://www.linkedin.com/in/amogh-warkhandkar-517a4b174/"
+            style={{ marginLeft: "20px" }}
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -102,11 +109,10 @@ const Home = () => {
             />
             linkedin
           </Button>
-        </ListItem>
-        <ListItem>
           <Button
             variant="outlined"
             href="https://www.researchgate.net/profile/Amogh_Warkhandkar"
+            style={{ marginLeft: "20px" }}
           >
             <FontAwesomeIcon
               icon={faResearchgate}
@@ -117,17 +123,22 @@ const Home = () => {
           </Button>
         </ListItem>
         <ListItem>
-          <Button variant="outlined" href="#">
+          <Button
+            variant="outlined"
+            href="https://drive.google.com/file/d/11z62-2rz4Hj-OnebP5Ay86aPQAYZWWoc/view?usp=sharing"
+          >
             <FontAwesomeIcon
               icon={faFile}
               style={{ marginRight: "10px" }}
               size="2x"
             />
-            resume
+            multi page resume
           </Button>
-        </ListItem>
-        <ListItem>
-          <Button variant="outlined" href="#">
+          <Button
+            variant="outlined"
+            href="https://drive.google.com/file/d/1pE-JrhRatN1-R1kxu0z_l4qvoon0L7oa/view?usp=sharing"
+            style={{ marginLeft: "20px" }}
+          >
             <FontAwesomeIcon
               icon={faFile}
               style={{ marginRight: "10px" }}

@@ -17,9 +17,11 @@ import { faKeyboard } from "@fortawesome/free-regular-svg-icons";
 const About = () => {
   return (
     <div>
-      <Typography variant="h4" gutterBottom>
-        Development Environment
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Development Environment
+        </Typography>
+      </div>
       <Divider style={{ margin: "20px 0px" }} />
       <Typography variant="body1" gutterBottom>
         <FontAwesomeIcon icon={faWindows} style={{ marginRight: "10px" }} />

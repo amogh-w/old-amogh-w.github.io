@@ -18,10 +18,16 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Research = () => {
   return (
     <div>
-      <Typography variant="h4" gutterBottom>
-        Articles
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Articles
+        </Typography>
+      </div>
       <Card style={{ marginBottom: "20px" }}>
+        <img
+          src="https://github.com/amogh-w/Paper-DevGAN/raw/master/Images/working_of_gans.png"
+          style={{ width: "100%" }}
+        />
         <CardHeader title="Measuring Performance of Generative Adversarial Networks on Devanagari Script"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
           <Typography variant="body1">

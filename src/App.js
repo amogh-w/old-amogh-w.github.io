@@ -21,6 +21,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-regular-svg-icons";
+import profilePhoto from "./media/linkedin-circle.png";
 
 const App = () => {
   const [darkState, setDarkState] = useState(
@@ -49,6 +50,15 @@ const App = () => {
           <Grid container spacing={3}>
             <HashRouter basename="/">
               <Grid item xs={12} sm={3}>
+                <div style={{ textAlign: "center" }}>
+                  <img
+                    src={profilePhoto}
+                    style={{
+                      width: "50%",
+                      paddingTop: "5%",
+                    }}
+                  />
+                </div>
                 <List>
                   <ListItem style={{ textAlign: "center" }}>
                     <Typography variant="h4">Amogh Warkhandkar</Typography>
@@ -120,7 +130,7 @@ const App = () => {
                       variant="body1"
                       onClick={handleThemeChange}
                     >
-                      {darkState ? (
+                      {!darkState ? (
                         <FontAwesomeIcon icon={faMoon} size="2x" />
                       ) : (
                         <FontAwesomeIcon icon={faSun} size="2x" />
@@ -130,14 +140,32 @@ const App = () => {
                 </List>
               </Grid>
               <Grid item xs={12} sm={9}>
-                <Paper style={{ padding: "20px" }}>
-                  <Route exact path="/" component={Home} />
-                  <Route path="/about" component={About} />
-                  <Route path="/experience" component={Experience} />
-                  <Route path="/research" component={Research} />
-                  <Route path="/projects" component={Projects} />
-                  <Route path="/contact" component={Contact} />
-                </Paper>
+                <div
+                  id="div1"
+                  style={{
+                    height: "98vh",
+                    position: "relative",
+                    paddingTop: "1%",
+                  }}
+                >
+                  <div
+                    id="div2"
+                    style={{
+                      // height: "100vh",
+                      maxHeight: "100%",
+                      overflow: "auto",
+                    }}
+                  >
+                    <Paper style={{ padding: "20px" }}>
+                      <Route exact path="/" component={Home} />
+                      <Route path="/about" component={About} />
+                      <Route path="/experience" component={Experience} />
+                      <Route path="/research" component={Research} />
+                      <Route path="/projects" component={Projects} />
+                      <Route path="/contact" component={Contact} />
+                    </Paper>
+                  </div>
+                </div>
               </Grid>
             </HashRouter>
           </Grid>

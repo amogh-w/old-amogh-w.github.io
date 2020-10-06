@@ -17,9 +17,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Experience = () => {
   return (
     <div>
-      <Typography variant="h4" gutterBottom>
-        Education
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Education
+        </Typography>
+      </div>
       <Card style={{ marginBottom: "20px" }}>
         <CardHeader title="Vidyalankar Institute of Technology"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -28,15 +30,17 @@ const Experience = () => {
             <Divider style={{ marginTop: "10px" }} />
             <List>
               <ListItem>★ Course: B.E. in Information Technology</ListItem>
-              <ListItem>★ Overall GPA: 8.19 (SEM I - V)</ListItem>
+              <ListItem>★ Overall GPA: 8.46 (SEM I - VI)</ListItem>
             </List>
           </Typography>
         </CardContent>
       </Card>
       <Divider style={{ margin: "20px 0px" }} />
-      <Typography variant="h4" gutterBottom>
-        Work
-      </Typography>
+      <div style={{ textAlign: "center" }}>
+        <Typography variant="h4" gutterBottom>
+          Work
+        </Typography>
+      </div>
       <Card>
         <CardHeader title="JavaScript Developer and UI/UX Designer Intern @ Hyfunn"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
