@@ -29,7 +29,7 @@ const About = () => {
         <List>
           <ListItem>i7 4790K</ListItem>
           <ListItem>Gigabyte Z97X Gaming 5</ListItem>
-          <ListItem>GTX 960 2GB</ListItem>
+          <ListItem>GTX 1660 SUPER 6GB</ListItem>
           <ListItem>8GB Corsair Vengeance</ListItem>
         </List>
       </Typography>
@@ -38,7 +38,7 @@ const About = () => {
         MSI GV62 7RE running Manjaro
         <List>
           <ListItem>i7 7700HQ</ListItem>
-          <ListItem>GTX 1050Ti 4gb</ListItem>
+          <ListItem>GTX 1050Ti 4GB</ListItem>
         </List>
       </Typography>
       <Divider style={{ margin: "20px 0px" }} />

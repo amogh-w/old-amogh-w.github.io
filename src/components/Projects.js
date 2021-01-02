@@ -27,6 +27,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/COVIDian/raw/master/client/src/media/banner.png?raw=true"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="COVIDian"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -71,6 +72,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/React-Tensorflow-Object-Detection/raw/master/Screenshots/1.gif"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="Object Detection Tool"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -108,6 +110,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/Hackathon-OCR-Magic/raw/master/Screenshots/2.png?raw=true"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="OCR Magic"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -146,6 +149,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/IOT-Digital-Wellbeing/raw/master/media/cover.png"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="Digital Wellbeing"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -183,6 +187,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/PongGamePython/raw/master/images/1.png?raw=true"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="Classic Pong Game"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>
@@ -219,6 +224,7 @@ const Projects = () => {
         <img
           src="https://github.com/amogh-w/PlutoRailwayLogin/raw/master/screenshots/login%20page.png?raw=true"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="Pluto Railway Registration and Login Portal"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>

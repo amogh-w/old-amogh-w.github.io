@@ -27,6 +27,7 @@ const Research = () => {
         <img
           src="https://github.com/amogh-w/Paper-DevGAN/raw/master/Images/working_of_gans.png"
           style={{ width: "100%" }}
+          alt="project"
         />
         <CardHeader title="Measuring Performance of Generative Adversarial Networks on Devanagari Script"></CardHeader>
         <CardContent style={{ paddingTop: "0px" }}>

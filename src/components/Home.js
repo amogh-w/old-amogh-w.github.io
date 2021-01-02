@@ -48,37 +48,79 @@ const Home = () => {
         </Typography>
       </div>
       <Typography>
-        💎 <b>Data Science:</b> Python, Numpy, Pandas, Seaborn, Matplotlib,
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Data Science:</b> Python, Numpy, Pandas, Seaborn, Matplotlib,
         Scikit-Learn
         <br />
-        💎 <b>Deep Learning Libraries:</b> Keras, Tensorflow, PyTorch
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Deep Learning Libraries:</b> Keras, Tensorflow, PyTorch
         <br />
-        💎 <b>DevOps:</b> Docker, CircleCI
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>DevOps:</b> Docker, CircleCI
         <br />
-        💎 <b>Cloud Services:</b> Amazon Web Services, IBM Cloud
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Cloud Services:</b> Amazon Web Services, IBM Cloud
         <br />
-        💎 <b>Frontend Development:</b> HTML5, CSS3, JavaScript, TypeScript,
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Frontend Development:</b> HTML5, CSS3, JavaScript, TypeScript,
         React.js framework.
         <br />
-        💎 <b>Backend Development:</b> Node.js, Express.js.
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Backend Development:</b> Node.js, Express.js.
         <br />
-        💎 <b>Databases:</b> MySQL, PostgreSQL, MongoDB
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Databases:</b> MySQL, PostgreSQL, MongoDB
         <br />
-        💎 <b>Protocols & APIs:</b> JSON, REST, GraphQL
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Protocols & APIs:</b> JSON, REST, GraphQL
         <br />
-        💎 <b>Source Control Management:</b> git
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Source Control Management:</b> git
         <br />
-        💎 <b>Operating Systems:</b> Windows, MacOS, Linux (Debian and
-        Arch-based Distros)
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Operating Systems:</b> Windows, MacOS, Linux (Debian and Arch-based
+        Distros)
         <br />
-        💎 <b>Scripting Tools:</b> Vim, Emacs
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Scripting Tools:</b> Vim, Emacs
         <br />
-        💎 <b>Scripting Languages:</b> perl, ruby, bash
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Scripting Languages:</b> perl, ruby, bash
         <br />
-        💎 <b>Typesetting Tools:</b> LaTeX
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Typesetting Tools:</b> LaTeX
         <br />
-        💎 <b>Soft Skills:</b> Excellent Written and Verbal Communication,
-        Critical Thinking Skills, Strong Interpersonal Skills
+        <span role="img" aria-label="diamond">
+          💎
+        </span>
+        <b>Soft Skills:</b> Excellent Written and Verbal Communication, Critical
+        Thinking Skills, Strong Interpersonal Skills
         <br />
       </Typography>
       <Divider style={{ margin: "20px 0px" }} />
@@ -99,7 +141,7 @@ const Home = () => {
           </Button>
           <Button
             variant="outlined"
-            href="https://www.linkedin.com/in/amogh-warkhandkar-517a4b174/"
+            href="https://www.linkedin.com/in/amogh-w/"
             style={{ marginLeft: "20px" }}
           >
             <FontAwesomeIcon

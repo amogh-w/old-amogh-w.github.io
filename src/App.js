@@ -57,6 +57,7 @@ const App = () => {
                       width: "50%",
                       paddingTop: "5%",
                     }}
+                    alt="profile"
                   />
                 </div>
                 <List>
